@@ -1,8 +1,8 @@
-= xxyyzz
+= Technology Terms+++<br>+++Phoenix Workgroup LLC
 John Schuster <John.schuster@PhoenixWorkgroup.com>
 v2.1b, 12/13/2019: Doco Type
 :Author: John HR Schuster
-:Company: Phoenix Learning Labs
+:Company: Phoenix Workgroup LLC
 :toc: left
 :toclevels: 4:
 :imagesdir: ./images
@@ -13,14 +13,65 @@ v2.1b, 12/13/2019: Doco Type
 :source-hightlighter: coderay
 :icons: font
 :docdir: */documents
-:github: https://github.com/GeekMustHave/Github repository
+:github: https://github.com/GeekMustHave/TechTerms
 :linkattrs:
 :seclinks:
 :title-logo-image: ./images/create-doco_gmh-blogArticle-cover.png
 
-Preamble paragraph goes here
+Technology Terms that need better definitions.
 
-== Introduction
+PDF Version of the document can be download at link:./readme.pdf[ Link, window='_blank]
+
+
+== Terms
+
+=== Data Lake
+
+A data lake is a storage repository that holds a vast amount of raw data in its native format until it is needed. While a hierarchical data warehouse stores data in files or folders, a data lake uses a flat architecture to store data.
+
+Any large data pool in which the schema and data requirements are not defined until the data is queried.
+
+The term data lake is often associated with Hadoop-oriented object storage.
+
+.Lake - Warehouse
+image::lake-warehouse.png[Lake - Warehouse, align='center']
+ 
+Reference: link:https://searchaws.techtarget.com/definition/data-lake[https://searchaws.techtarget.com/definition/data-lake, window='_blank']
+
+=== Slowly Changing Dimensions
+
+Very simply, there are 6 types of Slowly Changing Dimension that are commonly used, they are as follows:
+
+* Type 0 – Fixed Dimension
+No changes allowed, dimension never changes
+* Type 1 – No History
+Update record directly, there is no record of historical values, only current state
+* Type 2 – Row Versioning
+Track changes as version records with current flag & active dates and other metadata
+* Type 3 – Previous Value column
+Track change to a specific attribute, add a column to show the previous value, which is updated as further changes occur
+* Type 4 – History Table
+Show current value in dimension table but track all changes in separate table
+* Type 6 – Hybrid SCD
+Utilise techniques from SCD Types 1, 2 and 3 to track change
+* Type 6 - see [[Type 1 and 2 Dimensions]]
+
+Reference: link:https://adatis.co.uk/introduction-to-slowly-changing-dimensions-scd-types/[https://adatis.co.uk/introduction-to-slowly-changing-dimensions-scd-types/, window='_blank']
+
+=== Type 1 and 2 Dimensions
+
+A fact table can be accessed through  a dimension modeled both as a `type 1` dimension showing only the most current  attribute values, 
+or as a `type 2` dimension showing correct contemporary  historical proﬁles. 
+The same dimension table enables both perspectives. 
+Both the durable key and primary surrogate key of the dimension are placed in the fact table. 
+
+For the `type 1` perspective, the current ﬂag in the dimension is checked to be current,  
+and the fact table is joined via the `durable key`. For the `type 2` perspective, 
+the current ﬂag is not checked, and the fact table is joined via the `surrogate primary key`. 
+These two perspectives would be deployed as separate views to the BI applications.
+
+Reference: link:https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/type-7/[https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/type-7/ window='_blank']
+
 
 
 

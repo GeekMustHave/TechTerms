@@ -54,7 +54,7 @@ Track change to a specific attribute, add a column to show the previous value, w
 Show current value in dimension table but track all changes in separate table
 * Type 6 – Hybrid SCD
 Utilise techniques from SCD Types 1, 2 and 3 to track change
-* Type 6 - see [[Type 1 and 2 Dimensions]]
+* Type 7 - see <<Type 1 and 2 Dimension>>
 
 Reference: link:https://adatis.co.uk/introduction-to-slowly-changing-dimensions-scd-types/[https://adatis.co.uk/introduction-to-slowly-changing-dimensions-scd-types/, window='_blank']
 

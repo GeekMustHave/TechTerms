@@ -4,6 +4,7 @@ v2.1b, 12/13/2019: Doco Type
 :Author: John HR Schuster
 :Company: Phoenix Workgroup LLC
 :toc: left
+:title-page:
 :toclevels: 4:
 :imagesdir: ./images
 :pagenums:
@@ -16,7 +17,9 @@ v2.1b, 12/13/2019: Doco Type
 :github: https://github.com/GeekMustHave/TechTerms
 :linkattrs:
 :seclinks:
-:title-logo-image: ./images/create-doco_gmh-blogArticle-cover.png
+:title-logo-image: ./images/create-doco-pwc-jhrs-cover.png
+
+// --- Web destination https://pwc-lms.com/OpenStuff/doco/tech-terms/
 
 Technology Terms that need better definitions.
 
@@ -73,7 +76,37 @@ These two perspectives would be deployed as separate views to the BI application
 Reference: link:https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/type-7/[https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/type-7/ window='_blank']
 
 
+=== Wherescape
 
+.Wherescape DW Steps
+image::wherescape-dwsteps.png[Wherescape DW Steps, alt='Alt Tag', align='center']
+
+.What is Wherescape
+image::what-is-wherescape.png[What is Wherescape, alt='Alt Tag', align='center']
+ 
+This video segment from a Wherescape presentation, just show the overview of their product.
+
+.Wherescape Overview
+video::https://pwc-lms.com/OpenStuff/doco/tech-terms/images/wherescape-overview.mp4[Wherescape Overview, width=640, height=480, start=0, end=999999, align='center']
+
+
+==== 3D
+
+WhereScape 3D makes planning, modeling, designing and prototyping data warehouses, data vaults, data lakes and data marts easy, fast and effective.
+
+
+.Wherescape 3D
+image::wherescape-3d.png[Wherescape 3D, alt='Alt Tag', align='center']
+ 
+
+==== Red
+
+Whether on-premises or in the cloud, deliver data warehouses, data vaults, 
+data lakes and data marts quickly with the WhereScape RED integrated development environment and integration tools.
+
+.Wherescape Red
+image::wherescape-red.png[Wherescape Red, alt='Alt Tag', align='center']
+ 
 
 
 

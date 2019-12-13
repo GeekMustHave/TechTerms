@@ -59,6 +59,8 @@ Show current value in dimension table but track all changes in separate table
 Utilise techniques from SCD Types 1, 2 and 3 to track change
 * Type 7 - see <<Type 1 and 2 Dimension>>
 
+NOTE: There is no `Type 5gen-doco`
+
 Reference: link:https://adatis.co.uk/introduction-to-slowly-changing-dimensions-scd-types/[https://adatis.co.uk/introduction-to-slowly-changing-dimensions-scd-types/, window='_blank']
 
 === Type 1 and 2 Dimensions
@@ -86,7 +88,7 @@ image::what-is-wherescape.png[What is Wherescape, alt='Alt Tag', align='center']
  
 This video segment from a Wherescape presentation, just show the overview of their product.
 
-.Wherescape Overview
+.Wherescape Overview Video
 video::https://pwc-lms.com/OpenStuff/doco/tech-terms/images/wherescape-overview.mp4[Wherescape Overview, width=640, height=480, start=0, end=999999, align='center']
 
 
